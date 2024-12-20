@@ -1,11 +1,11 @@
 name: Build LKM for KernelSU
 on:
   push:
-    branches: [ "next" ]
+    branches: [ "susfs-a14-6.1" ]
     paths:
       - ".github/workflows/build-lkm.yml"
   pull_request:
-    branches: [ "next" ]
+    branches: [ "susfs-a14-6.1" ]
     paths:
       - ".github/workflows/build-lkm.yml"
   workflow_call:
