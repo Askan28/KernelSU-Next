@@ -2,14 +2,14 @@ name: Build Manager
 
 on:
   push:
-    branches: [ "next" ]
+    branches: [ "susfs-a14-6.1" ]
     paths:
       - '.github/workflows/build-manager.yml'
       - 'manager/**'
       - 'kernel/**'
       - 'userspace/ksud/**'
   pull_request:
-    branches: [ "next" ]
+    branches: [ "susfs-a14-6.1" ]
     paths:
       - 'manager/**'
   workflow_call:

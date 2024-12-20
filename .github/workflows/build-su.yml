@@ -1,13 +1,13 @@
 name: Build SU
 on:
   push:
-    branches: [ "next" ]
+    branches: [ "susfs-a14-6.1" ]
     paths:
       - '.github/workflows/build-su.yml'
       - 'userspace/su/**'
       - 'scripts/ksubot.py'
   pull_request:
-    branches: [ "next" ]
+    branches: [ "susfs-a14-6.1" ]
     paths:
       - 'userspace/su/**'
 jobs:
